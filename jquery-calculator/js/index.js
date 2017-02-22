@@ -11,7 +11,7 @@
     let space = ' ';
     let newNum1 = '';
     let arrNum1 = [];
-    let repeatOp = false;
+    // let repeatOp = false;
     // let nextEquation = false;
     // console.log("SCREEN", $(screen));
 
@@ -29,7 +29,7 @@
         screen.append(operand);
       }
       //if it is an 'operator'
-      else if ($(this).hasClass("operator") && firstOp) {
+      else if ($(this).hasClass("operator")) {
         if (firstOp !== "") {
           arrNum1.push(firstOp);
         }
